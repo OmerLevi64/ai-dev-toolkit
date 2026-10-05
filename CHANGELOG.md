@@ -5,6 +5,13 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-06
+
+### Added
+- Prompt templates: `debugging`, `refactoring`
+- Guides: `context-windows`, `evaluating-ai-features`
+- Runnable `examples/quickstart.py`
+
 ## [0.1.0] - 2026-10-06
 
 ### Added
