@@ -5,6 +5,10 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+### Added
+- Dynamic workflows starter guide (`guides/dynamic-workflows.md`)
+- Release-check workflow blueprint (`workflows/release-check.md`)
+
 ## [0.2.0] - 2026-10-06
 
 ### Added
