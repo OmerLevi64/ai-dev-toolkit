@@ -62,6 +62,8 @@ ai-dev-toolkit/
 |---|---|
 | `prompts/code-assistant.md` | General-purpose coding assistant system prompt |
 | `prompts/code-review.md` | Structured code review system prompt |
+| `prompts/debugging.md` | Systematic debugging system prompt |
+| `prompts/refactoring.md` | Behavior-preserving refactoring system prompt |
 
 ## Guides
 
