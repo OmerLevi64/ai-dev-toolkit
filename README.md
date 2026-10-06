@@ -7,13 +7,14 @@
 [![Last commit](https://img.shields.io/github/last-commit/OmerLevi64/ai-dev-toolkit)](https://github.com/OmerLevi64/ai-dev-toolkit/commits/main)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-Practical toolkit for developers building with AI — curated prompt templates, Python utilities, and engineering guides.
+Practical toolkit for developers building with AI — curated prompt templates, Python utilities, engineering guides, and dynamic workflow blueprints.
 
 ## Features
 
 - Curated prompt templates — battle-tested system prompts for coding assistance, code review, debugging, and refactoring (`prompts/`)
 - Python utilities — token estimation and structured prompt building (`src/`)
 - Engineering guides — practical prompt-engineering techniques for developers (`guides/`)
+- Workflow blueprints — copy-paste specs for GitHub's dynamic workflows: multi-agent processes pinned in code (`workflows/`)
 
 ## Quick start
 
@@ -51,6 +52,7 @@ print(prompt)
 ai-dev-toolkit/
 ├── prompts/                 # Reusable prompt templates for dev workflows
 ├── guides/                  # Short, practical engineering guides
+├── workflows/               # Dynamic workflow blueprints (authoring specs)
 ├── src/                     # Python utilities
 ├── tests/                   # Smoke tests (run in CI)
 └── .github/workflows/       # CI workflow
@@ -68,6 +70,15 @@ ai-dev-toolkit/
 ## Guides
 
 - `guides/prompt-engineering-basics.md` — core techniques: roles, constraints, examples, output formats
+- `guides/context-windows.md` — fitting more signal into limited context windows
+- `guides/evaluating-ai-features.md` — testing features that call an LLM
+- `guides/dynamic-workflows.md` — GitHub dynamic workflows: starter guide
+
+## Workflows
+
+| Blueprint | What it automates |
+|---|---|
+| `workflows/release-check.md` | Release readiness checks, parallel agent assessment, and a human checkpoint |
 
 ## Contributing
 
